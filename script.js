@@ -32,7 +32,7 @@ class Bird extends Animal{
     // checkFlight method tells us whether the bird can fly or not
     checkFlight(){ 
         if(this.flight){ // if this bird flies
-            console.log(`${this.name}s fly!`);
+            console.log(`${this.name}s can fly!`);
         }else{ // this bird doesn't fly
             console.log(`${this.name}s are flightless!`);
         }
